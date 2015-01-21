@@ -1,5 +1,5 @@
-## Cartridge for bpmPaaS with HR Employee Rewards Demo
-
+Cartridge for bpmPaaS with HR Employee Rewards Demo
+===================================================
 This cartridge provides the **_Red Hat JBoss BPM Suite_** for easy deployment to OpenShift based bpmPaaS with pre-loaded Employee
 Rewards Demo.
 
@@ -22,6 +22,7 @@ Once installed you can use the JBoss BPM Suite login:
 
    * u: mary   p: bpmsuite (manager)
 
+
 Important Note
 --------------
 You need the ability to setup MEDIUM gears, which is freely available if you [upgrade your account to Bronze
@@ -39,13 +40,13 @@ For more information on the [HR Employee Rewards Demo see here] (https://github.
 
 Supporting Articles
 -------------------
+[Launching Into the Clouds With 2 New OpenShift Primer bpmPaaS Quickstarts](http://www.schabell.org/2014/10/launching-into-clouds-with-2-new-openshift-primer-bpmpaas-quickstarts.html)
 
 [Real life bpmPaaS with JBoss BPM Suite HR employee rewards demo] (http://www.schabell.org/2014/06/real-life-bpmpaas-with-jboss-bpmsuite-rewards-demo.html)
 
 
 Released versions
 -----------------
-
 See the tagged releases for the following versions of the product:
 
 - v1.2 - moved to JBoss Demo Central, added one click install button.
@@ -53,6 +54,7 @@ See the tagged releases for the following versions of the product:
 - v1.1 - bpmPaaS on OpenShift cartridge, JBoss BPM Suite 6.0.2 and Rewards demo installed.
 
 - v1.0 - bpmPaaS on OpenShift cartridge, JBoss BPM Suite 6.0.1 and Rewards demo installed.
+
 
 ![Rewards Process](https://github.com/jbossdemocentral/bpms-rewards-demo/blob/master/docs/demo-images/rewards-process.png?raw=true)
 
