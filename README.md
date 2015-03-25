@@ -22,6 +22,13 @@ Once installed you can use the JBoss BPM Suite login:
 
    * u: mary   p: bpmsuite (manager)
 
+After claiming the user task as a manager (to approve or deny the award), if task completion takes longer
+than 1 minutes it will te reassigned back into the group so other managers can claim it. The short time frame
+of 1 minutes is for demo purposes, should talk about days to complete instead as if a manager that claimed a
+task got sick and failed to complete the claimed task.
+
+Note email notifications on user tasks will not work due to lack of port access. If you claim the task before 2 minutes expires and
+let it sit for longer than 1 minute without completing it will automatically reassign the task to the group.
 
 Important Note
 --------------
@@ -48,6 +55,8 @@ Supporting Articles
 Released versions
 -----------------
 See the tagged releases for the following versions of the product:
+
+- v1.3 - bpmsPaaS on OpenShift cartridge, JBoss BPM Suite 6.0.2 and Rewards demo with automated task reassignment.
 
 - v1.2 - moved to JBoss Demo Central, added one click install button.
 
